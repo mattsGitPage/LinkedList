@@ -1,0 +1,10 @@
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.csprojAssemblyReference.cache
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.csproj.CoreCompileInputs.cache
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\LinkedListCSharp.exe.config
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\LinkedListCSharp.exe
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\LinkedListCSharp.pdb
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\System.ValueTuple.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\System.ValueTuple.xml
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.csproj.CopyComplete
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.exe
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.pdb

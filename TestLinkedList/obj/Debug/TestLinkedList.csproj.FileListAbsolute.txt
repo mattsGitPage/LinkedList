@@ -1,0 +1,17 @@
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\obj\Debug\TestLinkedList.csprojAssemblyReference.cache
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\obj\Debug\TestLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\TestLinkedList.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\TestLinkedList.pdb
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\LinkedListCSharp.exe
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\LinkedListCSharp.pdb
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\LinkedListCSharp.exe.config
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\obj\Debug\TestLinkedList.csproj.CopyComplete
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\obj\Debug\TestLinkedList.dll
+C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\TestLinkedList\obj\Debug\TestLinkedList.pdb
