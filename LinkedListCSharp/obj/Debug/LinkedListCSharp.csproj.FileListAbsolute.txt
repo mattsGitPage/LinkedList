@@ -1,4 +1,3 @@
-C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.csprojAssemblyReference.cache
 C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\obj\Debug\LinkedListCSharp.csproj.CoreCompileInputs.cache
 C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\LinkedListCSharp.exe.config
 C:\Users\matthew dunning\Source\Repos\LinkedListCSharp\LinkedListCSharp\bin\Debug\LinkedListCSharp.exe

@@ -6,58 +6,99 @@ using System.Threading.Tasks;
 
 namespace LinkedListCSharp
 {
-    public class LinkedList
+    public class LinkedList<T> 
     {
-        public LinkedList() { }
+        private class Node
+        {
+            public Node(T Data)
+            {
+                data = Data;
+                next = null;
+            } 
 
-        private Node Head;
-        private Node Tail;
+            private Node next;
+            public Node Next
+            {
+                get { return next; }
+                set { next = value; }
+            }
+
+            private T data;
+            public T Data { get { return data; } set { data = value; } }
+        }
+
+        private Node head;
+
+        public LinkedList()
+        {
+            head = null;
+        }
 
         /// <summary>
         /// Get the linked list head.
         /// </summary>
         /// <returns></returns>
-        public Node GetListHead()
+        public void InsertNodeAtHead(T node)
         {
-            return Head;
+            Node temp = new Node(node);
+            temp.Next = head;
+            head = temp;
         }
 
-        /// <summary>
-        /// Get the last element in the list.
-        /// </summary>
-        /// <returns>Tail of the list.</returns>
-        public Node GetListTail()
+        
+
+        public void DeleteNode(T node)
         {
-            Node temp = Head;
+            Node previous = null;
+            Node temp = head;
             //Check for an empty list.
             if (temp == null)
-                return null;
+                return;
 
-            //Check for a single item in the list.
-            if (temp.Next == null)
-                return Head;
-
-            //Iterate to the last item in the list. 
-            while (temp.Next != null)
+            //Check if we are deleting first node in list.
+            if (temp.Data.Equals(node))
+            {
+                head = temp.Next;
+                return;
+            }
+                
+            //Iterate over the list looking for the value need. 
+            while(temp.Next != null && !temp.Data.Equals(node))
+            {
+                previous = temp;
                 temp = temp.Next;
+            }
 
-            return temp;
+
+            if(temp.Data.Equals(node))
+                previous.Next = temp.Next;
         }
 
-        /// <summary>
-        /// Insert node at the front of list.
-        /// </summary>
-        /// <param name="node">Node to insert.</param>
-        public void InsertNode(Node node)
+        public override string ToString()
         {
-            Node temp = Head;
-            Head = node;
-            Head.Next = temp;
+            Node temp = head;
+            string returnValue = string.Empty;
+            if (temp != null)
+            {
+                while (temp.Next != null)
+                {
+                    returnValue += temp.Data + "->";
+                    temp = temp.Next;
+                }
+                returnValue += temp.Data;
+            }
+            return returnValue;
         }
 
-        public void DeleteNode(Node node)
+        public IEnumerator<T> GetEnumerator()
         {
+            Node current = head;
 
+            while (current != null)
+            {
+                yield return current.Data;
+                current = current.Next;
+            }
         }
     }
 }
